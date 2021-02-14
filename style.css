@@ -1,0 +1,228 @@
+/*
+
+  Theme Name: QuickStart - MultiPurpose HTML5 Template for Startup 
+
+  Author:pixicoder
+
+  Support: pixicoder@gmail.com
+
+  Description: Creative HTML5 Template.
+
+  Version: 1.0
+
+*/
+
+
+
+/* CSS Index
+
+-----------------------------------
+
+1. Theme default css
+
+2. Header
+
+3. Slider
+
+4. How work
+
+5. Access
+
+6. Price
+
+7. Testimonial
+
+8. Brand
+
+9. Newsletter
+
+10. Footer
+
+*/
+
+
+
+/* 1. Theme default css */
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700|Rubik:300,400,500,700&display=swap');
+
+ body {
+	font-family: 'Rubik', sans-serif;
+	font-weight: normal;
+	font-style: normal;
+	color: #7b8491;
+	font-size: 15px;
+}
+
+.img {
+	max-width: 100%;
+	transition: all 0.3s ease-out 0s;
+}
+
+.f-left {
+	float: left
+}
+
+.f-right {
+	float: right
+}
+
+.fix {
+	overflow: hidden
+}
+
+button {
+	cursor: pointer;
+	transition: .3s;
+}
+
+a,
+.button {
+	-webkit-transition: all 0.3s ease-out 0s;
+	-moz-transition: all 0.3s ease-out 0s;
+	-ms-transition: all 0.3s ease-out 0s;
+	-o-transition: all 0.3s ease-out 0s;
+	transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+.button:focus {
+	text-decoration: none;
+	outline: none;
+}
+
+a:focus,
+a:hover{
+	color: #dddddd;
+	text-decoration: none;
+}
+
+a,
+button {
+	color: #ff5b5b;
+	outline: medium none;
+}
+
+button:focus,input:focus,input:focus,textarea,textarea:focus{outline: 0}
+
+.uppercase {
+	text-transform: uppercase;
+}
+
+.capitalize {
+	text-transform: capitalize;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Poppins', sans-serif;
+	color: #233d63;
+	margin-top: 0px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 1.2;
+	transition: .3s;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+	color: inherit;
+}
+
+h1 {
+	font-size: 48px;
+	font-weight: 500;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 28px;
+}
+
+h4 {
+	font-size: 22px;
+}
+
+h5 {
+	font-size: 18px;
+}
+
+h6 {
+	font-size: 16px;
+}
+
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+li {
+	list-style: none
+}
+
+p {
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 28px;
+	color: #7b8491;
+	margin-bottom: 15px;
+	transition: .3s;
+}
+
+hr {
+	border-bottom: 1px solid #eceff8;
+	border-top: 0 none;
+	margin: 30px 0;
+	padding: 0;
+}
+
+label {
+	color: #7e7e7e;
+	cursor: pointer;
+	font-size: 14px;
+	font-weight: 400;
+}
+
+
+/* button style */
+
+
+
+.cmn-btn {
+	background: #00c867;
+	border-radius: 50px;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 13px;
+	font-weight: 500;
+	letter-spacing: 1px;
+	line-height: 1;
+	margin-bottom: 0;
+	padding: 17px 35px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: all 0.3s ease 0s;
+	vertical-align: middle;
+	white-space: nowrap;
+	border: 1px solid #00c867;
+	position: relative;
+}
+
+.border-btn {
+    background: transparent;
+    border-color: #fff;
+    color: #00c867;
+}
+
+
+
+/* 2. Header */
+
+
